@@ -30,4 +30,4 @@ A function called DoStitch takes three inputs and stitch center, left, right ima
 8. Blend left image and center image,using blendImagePair and the mask information  
 9. Blend right image and the left half image get from step 8 to get the final result. Notice the mask for left half image is the sum of left image mask and center image mask. And to get the correct image, need to make sure all the NAN values are set to 0.  
 
-## Some test result
+### Some test result can be found in the repository
